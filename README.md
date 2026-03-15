@@ -1,44 +1,66 @@
-<h1 align="center">Hola, soy Jesús Lebrón 👋</h1>
+# 👋 Hola, soy Jesús Alberto Lebrón
 
-<table>
-  <tr>
-    <td width="60%" valign="top">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400"/>
 
-## 🌟 Sobre mí
+💻 **Software Engineering Student**  
+🌐 **Web Developer** | ⚙️ **Backend Developer**
 
-I am a software developer in training, focused on creating functional and well-structured applications. I am interested in constantly learning, improving my technical skills, and applying best practices in every project I develop.
+Soy estudiante de Ingeniería en Software apasionado por el desarrollo web, backend y bases de datos.  
+Me gusta crear soluciones modernas, aprender nuevas tecnologías y resolver problemas usando programación.
 
-I like working with practical solutions, keeping the code clear, organized, and easy to maintain.
+---
 
-## 🛠️ Mis habilidades incluyen
+# 🚀 Tecnologías
 
-### Lenguajes
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+<p align="center">
 
-### Herramientas
-![Git](https://img.shields.io/badge/Git-orange?logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)
+<img src="https://skillicons.dev/icons?i=js,python,cs,html,css,git,github,vscode" />
 
-## 🌐 Redes
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/jesus-lebron-01171638b">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:jesusalbt77@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white"/>
-  </a>
 </p>
- <td width="70%" align="center">
-      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" />
-    </td>
-  </tr>
-</table>
 
+---
 
+# 📊 Estadísticas de GitHub
 
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight" height="180"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight" height="180"/>
+
+</p>
+
+---
+
+# 🐍 Snake comiendo commits
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+
+</p>
+
+---
+
+# 📂 Proyectos
+
+🔗 Repositorios  
+https://github.com/Jesusalbt77?tab=repositories
+
+🔗 LinkedIn  
+https://www.linkedin.com/in/jesus-lebron-01171638b
+
+---
+
+# 📫 Contacto
+
+📧 Email: tuemail@gmail.com  
+💼 LinkedIn: https://www.linkedin.com/in/jesus-lebron-01171638b  
+💻 GitHub: https://github.com/Jesusalbt77
+
+---
+
+⭐ *Siempre aprendiendo nuevas tecnologías y construyendo proyectos.*
 
     
 
