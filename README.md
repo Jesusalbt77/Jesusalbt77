@@ -1,66 +1,155 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=560&lines=Jes%C3%BAs+Alberto+Lebr%C3%B3n+Roa;Software+Engineering+Student;Backend+Developer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=650&lines=Jes%C3%BAs+Alberto+Lebr%C3%B3n+Roa;Software+Engineering+Student;Backend+Developer;Building+with+Code+%26+Logic" alt="Typing SVG" />
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Jesusalbt77&color=0FF0FC&style=flat-square&label=VIEWS)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesús-alberto-lebron-roa-01171638b)
-[![Email](https://img.shields.io/badge/Email-Contact-00F0FF?style=flat-square&logo=gmail&logoColor=white)](mailto:jesusalbt77@gmail.com)
+<img src="https://komarev.com/ghpvc/?username=Jesusalbt77&color=00F0FF&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/jesús-alberto-lebron-roa-01171638b">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:jesusalbt77@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-00F0FF?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
 </div>
 
-<br/>
+---
 
-```
+## 👨‍💻 About Me
+
+```text
 > whoami
-Software Engineering student (8th quarter) · Dominican Republic
-Focused on backend development, APIs, and relational databases
+
+Software Engineering student — 8th quarter
+📍 Dominican Republic
+
+Focused on:
+• Backend development
+• REST APIs
+• Relational databases
+• Software architecture
+• Building practical applications
+
+Currently learning, building and improving one project at a time.
 ```
 
-<br/>
+---
 
 ## ⚙️ Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,py,cs,postgres,git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=js,py,cs,nodejs,typescript,postgres,prisma,git,github,vscode&theme=dark" />
 
 </div>
 
 <br/>
 
-## 🚀 Featured Project — StockNova
+<div align="center">
+
+`JavaScript` · `TypeScript` · `Python` · `C#` · `Node.js` · `PostgreSQL` · `Prisma` · `Git`
+
+</div>
+
+---
+
+## 🚀 Featured Project
 
 <div align="center">
 
-**[insertar una línea describiendo qué hace StockNova]**
+# 📦 StockNova
 
-`[stack real: ej. Node.js · TypeScript · Prisma · PostgreSQL]`
+### Inventory Management System
 
-🔗 **[Ver repositorio](https://github.com/Jesusalbt77/StockNova)**
+StockNova is a backend-focused inventory management project designed to manage products, categories and inventory movements through a structured API and relational database.
+
+<br/>
+
+**Tech Stack**
+
+`Node.js` · `TypeScript` · `Prisma` · `PostgreSQL`
+
+<br/><br/>
+
+<a href="https://github.com/Jesusalbt77/StockNova">
+<img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00F0FF?style=for-the-badge&logo=github&logoColor=black"/>
+</a>
+
+</div>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00F0FF&title_color=00F0FF&text_color=FFFFFF&rank_icon=github&cache_seconds=1800" height="180"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=FFFFFF&cache_seconds=1800" height="180"/>
 
 </div>
 
 <br/>
 
-## 📊 GitHub Stats
+---
+
+## 📈 Contribution Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00F0FF&title_color=00F0FF&cache_seconds=1800" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&cache_seconds=1800" height="165"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jesusalbt77&bg_color=0D1117&color=00F0FF&line=00F0FF&point=FFFFFF&area=true&hide_border=true&custom_title=Jes%C3%BAs%20Alberto%20Lebr%C3%B3n%20Roa%20-%20GitHub%20Activity" width="95%"/>
 
 </div>
 
-<br/>
+---
 
-## 📫 Contact
+## 🐍 Contribution Snake
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/-jesusalbt77@gmail.com-00F0FF?style=flat-square&logo=gmail&logoColor=black)](mailto:jesusalbt77@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesús-alberto-lebron-roa-01171638b)
-[![GitHub](https://img.shields.io/badge/-Jesusalbt77-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Jesusalbt77)
+<img src="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
+
+</div>
+
+---
+
+## 🎯 Currently
+
+```text
+🔹 Studying Software Engineering
+🔹 Improving my backend development skills
+🔹 Working with APIs and relational databases
+🔹 Developing StockNova
+🔹 Learning new technologies through practical projects
+```
+
+---
+
+## 📫 Let's Connect
+
+<div align="center">
+
+<a href="mailto:jesusalbt77@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-jesusalbt77%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black"/>
+</a>
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/jesús-alberto-lebron-roa-01171638b">
+<img src="https://img.shields.io/badge/LinkedIn-Jes%C3%BAs%20Alberto%20Lebr%C3%B3n%20Roa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Jesusalbt77">
+<img src="https://img.shields.io/badge/GitHub-Jesusalbt77-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+### ✦ Building today. Learning every day. ✦
 
 </div>
