@@ -5,7 +5,7 @@
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Jesusalbt77&color=0FF0FC&style=flat-square&label=VIEWS)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU-USUARIO-AQUI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesús-alberto-lebron-roa-01171638b)
 [![Email](https://img.shields.io/badge/Email-Contact-00F0FF?style=flat-square&logo=gmail&logoColor=white)](mailto:jesusalbt77@gmail.com)
 
 </div>
@@ -48,8 +48,8 @@ Focused on backend development, APIs, and relational databases
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-black.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00F0FF&title_color=00F0FF" height="165"/>
-<img src="https://github-readme-stats-sigma-black.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00F0FF&title_color=00F0FF&cache_seconds=1800" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&cache_seconds=1800" height="165"/>
 
 </div>
 
@@ -60,7 +60,7 @@ Focused on backend development, APIs, and relational databases
 <div align="center">
 
 [![Email](https://img.shields.io/badge/-jesusalbt77@gmail.com-00F0FF?style=flat-square&logo=gmail&logoColor=black)](mailto:jesusalbt77@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU-USUARIO-AQUI)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesús-alberto-lebron-roa-01171638b)
 [![GitHub](https://img.shields.io/badge/-Jesusalbt77-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Jesusalbt77)
 
 </div>
