@@ -89,13 +89,13 @@ StockNova is a backend-focused inventory management project designed to manage p
 
 ### 💻 Development Overview
 
-<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00F0FF&title_color=00F0FF&text_color=FFFFFF&rank_icon=github&cache_seconds=1800" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="180"/>
 
 <br/><br/>
 
 ### 🧠 Main Languages
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=FFFFFF&cache_seconds=1800" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="180"/>
 
 </div>
 
