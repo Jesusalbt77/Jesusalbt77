@@ -11,7 +11,9 @@
 <a href="https://www.linkedin.com/in/jesús-alberto-lebron-roa-01171638b">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-&nbsp;
+
+ 
+
 <a href="mailto:jesusalbt77@gmail.com">
 <img src="https://img.shields.io/badge/Email-Contact-00F0FF?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
@@ -84,19 +86,11 @@ StockNova is a backend-focused inventory management project designed to manage p
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00F0FF&title_color=00F0FF&text_color=FFFFFF&rank_icon=github&cache_seconds=1800" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00F0FF&title_color=00F0FF&text_color=FFFFFF&rank_icon=github&cache_seconds=1800" alt="GitHub Stats"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=FFFFFF&cache_seconds=1800" height="180"/>
+<br/><br/>
 
-</div>
-
----
-
-## 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Jesusalbt77&theme=tokyonight&hide_border=true&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=FFFFFF&cache_seconds=1800" alt="Top Languages"/>
 
 </div>
 
@@ -106,7 +100,7 @@ StockNova is a backend-focused inventory management project designed to manage p
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jesusalbt77&bg_color=0D1117&color=00F0FF&line=00F0FF&point=FFFFFF&area=true&hide_border=true&custom_title=Jes%C3%BAs%20Alberto%20Lebr%C3%B3n%20Roa%20-%20GitHub%20Activity" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jesusalbt77&bg_color=0D1117&color=00F0FF&line=00F0FF&point=FFFFFF&area=true&hide_border=true&custom_title=Jes%C3%BAs%20Alberto%20Lebr%C3%B3n%20Roa%20-%20GitHub%20Activity" width="95%" alt="GitHub Activity Graph"/>
 
 </div>
 
@@ -114,4 +108,70 @@ StockNova is a backend-focused inventory management project designed to manage p
 
 ## 🐍 Contribution Snake
 
-<div
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+</picture>
+
+</div>
+
+---
+
+## 🎯 Currently
+
+```text
+🔹 Studying Software Engineering
+🔹 Improving my backend development skills
+🔹 Working with APIs and relational databases
+🔹 Developing StockNova
+🔹 Learning new technologies through practical projects
+```
+
+---
+
+## 🧠 Development Philosophy
+
+<div align="center">
+
+```text
+┌──────────────────────────────────────────────┐
+│                                              │
+│   Learn → Build → Break → Fix → Improve     │
+│                                              │
+│   Every project is an opportunity to learn.  │
+│                                              │
+└──────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+## 📫 Let's Connect
+
+<div align="center">
+
+<a href="mailto:jesusalbt77@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-jesusalbt77%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black"/>
+</a>
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/jesús-alberto-lebron-roa-01171638b">
+<img src="https://img.shields.io/badge/LinkedIn-Jes%C3%BAs%20Alberto%20Lebr%C3%B3n%20Roa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+ 
+
+<a href="https://github.com/Jesusalbt77">
+<img src="https://img.shields.io/badge/GitHub-Jesusalbt77-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+### ✦ Building today. Learning every day. ✦
+
+</div>
