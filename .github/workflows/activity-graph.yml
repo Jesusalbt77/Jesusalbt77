@@ -14,19 +14,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Activity Graph
+      - name: Generate Cyberpunk Activity Graph
         run: |
           mkdir -p dist
 
           curl -L \
-          "https://github-readme-activity-graph.vercel.app/graph?username=Jesusalbt77&bg_color=0D1117&color=00F0FF&line=00F0FF&point=FFFFFF&area=true&hide_border=true&custom_title=Jes%C3%BAs%20Alberto%20Lebr%C3%B3n%20Roa%20-%20GitHub%20Activity" \
+          "https://github-readme-activity-graph.vercel.app/graph?username=Jesusalbt77&bg_color=05070A&color=00F0FF&line=00F0FF&point=FFFFFF&area=true&area_color=00F0FF&area_opacity=0.20&hide_border=true&custom_title=JES%C3%9AS%20ALBERTO%20LEBR%C3%93N%20ROA%20-%20DEVELOPMENT%20ACTIVITY" \
           -o dist/activity-graph.svg
 
       - name: Verify Activity Graph
         run: |
-          echo "Comprobando archivo..."
+          echo "Activity Graph generado:"
           ls -lh dist/activity-graph.svg
-          head -c 100 dist/activity-graph.svg
 
       - name: Publish Activity Graph
         uses: crazy-max/ghaction-github-pages@v5
