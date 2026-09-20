@@ -1,6 +1,8 @@
-name: Generate Activity Graph
+name: Generate Cyberpunk Activity Graph
 
 on:
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,26 +13,398 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Generate Cyberpunk Activity Graph
+      - name: Get GitHub contribution data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p dist
+          gh api graphql \
+            -f query='
+            query($login:String!) {
+              user(login:$login) {
+                contributionsCollection {
+                  totalCommitContributions
+                  totalIssueContributions
+                  totalPullRequestContributions
+                  totalRepositoryContributions
+                  contributionCalendar {
+                    totalContributions
+                    weeks {
+                      contributionDays {
+                        contributionCount
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            }' \
+            -f login="Jesusalbt77" > data.json
 
-          curl -L \
-          "https://github-readme-activity-graph.vercel.app/graph?username=Jesusalbt77&bg_color=05070A&color=00F0FF&line=00F0FF&point=FFFFFF&area=true&area_color=00F0FF&area_opacity=0.20&hide_border=true&custom_title=JES%C3%9AS%20ALBERTO%20LEBR%C3%93N%20ROA%20-%20DEVELOPMENT%20ACTIVITY" \
-          -o dist/activity-graph.svg
-
-      - name: Verify Activity Graph
+      - name: Generate Cyberpunk SVG
         run: |
-          echo "Activity Graph generado:"
+          python3 <<'PY'
+          import json
+          import math
+
+          with open("data.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          calendar = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+
+          weeks = calendar["weeks"]
+          total = calendar["totalContributions"]
+
+          weekly_values = []
+
+          for week in weeks:
+              value = sum(
+                  day["contributionCount"]
+                  for day in week["contributionDays"]
+              )
+              weekly_values.append(value)
+
+          # Tomar las últimas 52 semanas
+          weekly_values = weekly_values[-52:]
+
+          width = 1200
+          height = 420
+
+          left = 70
+          right = 40
+          top = 100
+          bottom = 70
+
+          graph_width = width - left - right
+          graph_height = height - top - bottom
+
+          max_value = max(weekly_values) if weekly_values else 1
+
+          points = []
+
+          for i, value in enumerate(weekly_values):
+              x = left + (i / (len(weekly_values) - 1)) * graph_width
+
+              normalized = value / max_value if max_value else 0
+
+              y = top + graph_height - (normalized * graph_height)
+
+              points.append((x, y))
+
+          line_points = " ".join(
+              f"{x:.2f},{y:.2f}"
+              for x, y in points
+          )
+
+          area_points = (
+              f"{left},{top + graph_height} "
+              + line_points
+              + f" {left + graph_width},{top + graph_height}"
+          )
+
+          # Crear puntos brillantes
+          circles = ""
+
+          for x, y in points:
+              circles += f'''
+                <circle
+                  cx="{x:.2f}"
+                  cy="{y:.2f}"
+                  r="4"
+                  fill="#00F0FF"
+                  filter="url(#glow)"
+                />
+              '''
+
+          # Líneas de cuadrícula
+          grid = ""
+
+          for i in range(6):
+              y = top + (graph_height / 5) * i
+
+              grid += f'''
+                <line
+                  x1="{left}"
+                  y1="{y:.2f}"
+                  x2="{left + graph_width}"
+                  y2="{y:.2f}"
+                  stroke="#12313A"
+                  stroke-width="1"
+                  opacity="0.7"
+                />
+              '''
+
+          for i in range(13):
+              x = left + (graph_width / 12) * i
+
+              grid += f'''
+                <line
+                  x1="{x:.2f}"
+                  y1="{top}"
+                  x2="{x:.2f}"
+                  y2="{top + graph_height}"
+                  stroke="#0B2229"
+                  stroke-width="1"
+                  opacity="0.6"
+                />
+              '''
+
+          svg = f'''<?xml version="1.0" encoding="UTF-8"?>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="{width}"
+            height="{height}"
+            viewBox="0 0 {width} {height}"
+          >
+
+            <defs>
+
+              <linearGradient
+                id="background"
+                x1="0"
+                y1="0"
+                x2="0"
+                y2="1"
+              >
+                <stop offset="0%" stop-color="#05070A"/>
+                <stop offset="100%" stop-color="#020304"/>
+              </linearGradient>
+
+              <linearGradient
+                id="area"
+                x1="0"
+                y1="0"
+                x2="0"
+                y2="1"
+              >
+                <stop
+                  offset="0%"
+                  stop-color="#00F0FF"
+                  stop-opacity="0.35"
+                />
+
+                <stop
+                  offset="100%"
+                  stop-color="#00F0FF"
+                  stop-opacity="0"
+                />
+              </linearGradient>
+
+              <filter
+                id="glow"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%"
+              >
+                <feGaussianBlur
+                  stdDeviation="5"
+                  result="blur"
+                />
+
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+              <filter
+                id="strongGlow"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%"
+              >
+                <feGaussianBlur
+                  stdDeviation="9"
+                  result="blur"
+                />
+
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+            </defs>
+
+            <!-- BACKGROUND -->
+
+            <rect
+              width="100%"
+              height="100%"
+              rx="18"
+              fill="url(#background)"
+            />
+
+            <!-- CYBERPUNK BORDER -->
+
+            <rect
+              x="1"
+              y="1"
+              width="{width - 2}"
+              height="{height - 2}"
+              rx="18"
+              fill="none"
+              stroke="#00F0FF"
+              stroke-width="2"
+              opacity="0.8"
+              filter="url(#glow)"
+            />
+
+            <!-- TITLE -->
+
+            <text
+              x="{left}"
+              y="42"
+              fill="#00F0FF"
+              font-family="monospace"
+              font-size="22"
+              font-weight="bold"
+              letter-spacing="2"
+            >
+              JESÚS ALBERTO LEBRÓN ROA
+            </text>
+
+            <text
+              x="{left}"
+              y="70"
+              fill="#6BEFFF"
+              font-family="monospace"
+              font-size="13"
+              letter-spacing="1"
+            >
+              &gt; DEVELOPMENT ACTIVITY // LAST 52 WEEKS
+            </text>
+
+            <!-- TOTAL -->
+
+            <text
+              x="{width - right}"
+              y="46"
+              text-anchor="end"
+              fill="#FFFFFF"
+              font-family="monospace"
+              font-size="20"
+              font-weight="bold"
+            >
+              {total}
+            </text>
+
+            <text
+              x="{width - right}"
+              y="68"
+              text-anchor="end"
+              fill="#00F0FF"
+              font-family="monospace"
+              font-size="11"
+              letter-spacing="1"
+            >
+              CONTRIBUTIONS
+            </text>
+
+            <!-- GRID -->
+
+            {grid}
+
+            <!-- AREA -->
+
+            <polygon
+              points="{area_points}"
+              fill="url(#area)"
+            />
+
+            <!-- GLOW LINE -->
+
+            <polyline
+              points="{line_points}"
+              fill="none"
+              stroke="#00F0FF"
+              stroke-width="8"
+              opacity="0.18"
+              filter="url(#strongGlow)"
+            />
+
+            <!-- MAIN LINE -->
+
+            <polyline
+              points="{line_points}"
+              fill="none"
+              stroke="#00F0FF"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              filter="url(#glow)"
+            />
+
+            <!-- DATA POINTS -->
+
+            {circles}
+
+            <!-- AXIS -->
+
+            <line
+              x1="{left}"
+              y1="{top + graph_height}"
+              x2="{left + graph_width}"
+              y2="{top + graph_height}"
+              stroke="#00F0FF"
+              stroke-width="1"
+              opacity="0.6"
+            />
+
+            <!-- FOOTER -->
+
+            <text
+              x="{left}"
+              y="{height - 25}"
+              fill="#4A8F99"
+              font-family="monospace"
+              font-size="10"
+              letter-spacing="1"
+            >
+              SYSTEM STATUS: ACTIVE
+            </text>
+
+            <text
+              x="{width - right}"
+              y="{height - 25}"
+              text-anchor="end"
+              fill="#4A8F99"
+              font-family="monospace"
+              font-size="10"
+              letter-spacing="1"
+            >
+              JESUSALBT77 // GITHUB
+            </text>
+
+          </svg>
+          '''
+
+          import os
+
+          os.makedirs("dist", exist_ok=True)
+
+          with open(
+              "dist/activity-graph.svg",
+              "w",
+              encoding="utf-8"
+          ) as f:
+              f.write(svg)
+
+          print("Cyberpunk Activity Graph generado correctamente.")
+          print(f"Total contributions: {total}")
+          PY
+
+      - name: Verify SVG
+        run: |
+          echo "Archivo generado:"
           ls -lh dist/activity-graph.svg
 
       - name: Publish Activity Graph
         uses: crazy-max/ghaction-github-pages@v5
         with:
-          target_branch: output
+          target_branch: activity-graph
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
