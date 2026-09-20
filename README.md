@@ -60,9 +60,21 @@ Currently learning, building and improving one project at a time.
 
 <div align="center">
 
-# 📦 StockNova
+<a href="https://github.com/Jesusalbt77/StockNova">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=100&section=header&text=📦%20StockNova&fontSize=40&fontColor=00F0FF&animation=fadeIn" alt="StockNova"/>
+
+</a>
 
 ### Inventory Management System
+
+<a href="https://github.com/Jesusalbt77/StockNova">
+
+<img src="https://img.shields.io/badge/CLICK%20TO%20VIEW%20PROJECT-00F0FF?style=for-the-badge&logo=github&logoColor=black"/>
+
+</a>
+
+<br/><br/>
 
 StockNova is a backend-focused inventory management project designed to manage products, categories and inventory movements through a structured API and relational database.
 
@@ -86,11 +98,19 @@ StockNova is a backend-focused inventory management project designed to manage p
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00F0FF&title_color=00F0FF&text_color=FFFFFF&rank_icon=github&cache_seconds=1800" alt="GitHub Stats"/>
+<a href="https://github.com/Jesusalbt77">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Jesusalbt77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00F0FF&title_color=00F0FF&text_color=FFFFFF&rank_icon=github&cache_seconds=1800" alt="GitHub Statistics"/>
+
+</a>
 
 <br/><br/>
 
+<a href="https://github.com/Jesusalbt77">
+
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesusalbt77&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=FFFFFF&cache_seconds=1800" alt="Top Languages"/>
+
+</a>
 
 </div>
 
@@ -100,7 +120,7 @@ StockNova is a backend-focused inventory management project designed to manage p
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jesusalbt77&bg_color=0D1117&color=00F0FF&line=00F0FF&point=FFFFFF&area=true&hide_border=true&custom_title=Jes%C3%BAs%20Alberto%20Lebr%C3%B3n%20Roa%20-%20GitHub%20Activity" width="95%" alt="GitHub Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jesusalbt77&bg_color=0D1117&color=00F0FF&line=00F0FF&point=FFFFFF&area=true&hide_border=true&custom_title=Jes%C3%BAs%20Alberto%20Lebr%C3%B3n%20Roa%20-%20GitHub%20Activity" alt="GitHub Contribution Activity" width="95%"/>
 
 </div>
 
@@ -111,9 +131,13 @@ StockNova is a backend-focused inventory management project designed to manage p
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake.svg">
-  <img src="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake-dark.svg">
+
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake.svg">
+
+<img src="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+
 </picture>
 
 </div>
