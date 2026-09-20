@@ -46,11 +46,7 @@ Currently learning, building and improving one project at a time.
 
 <img src="https://skillicons.dev/icons?i=js,py,cs,nodejs,typescript,postgres,prisma,git,github,vscode&theme=dark" />
 
-</div>
-
-<br/>
-
-<div align="center">
+<br/><br/>
 
 `JavaScript` · `TypeScript` · `Python` · `C#` · `Node.js` · `PostgreSQL` · `Prisma` · `Git`
 
@@ -94,7 +90,15 @@ StockNova is a backend-focused inventory management project designed to manage p
 
 </div>
 
-<br/>
+---
+
+## 🔥 GitHub Streak
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Jesusalbt77&theme=tokyonight&hide_border=true&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF" />
+
+</div>
 
 ---
 
@@ -110,46 +114,4 @@ StockNova is a backend-focused inventory management project designed to manage p
 
 ## 🐍 Contribution Snake
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Jesusalbt77/Jesusalbt77/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
-
-</div>
-
----
-
-## 🎯 Currently
-
-```text
-🔹 Studying Software Engineering
-🔹 Improving my backend development skills
-🔹 Working with APIs and relational databases
-🔹 Developing StockNova
-🔹 Learning new technologies through practical projects
-```
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
-
-<a href="mailto:jesusalbt77@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-jesusalbt77%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black"/>
-</a>
-
-<br/><br/>
-
-<a href="https://www.linkedin.com/in/jesús-alberto-lebron-roa-01171638b">
-<img src="https://img.shields.io/badge/LinkedIn-Jes%C3%BAs%20Alberto%20Lebr%C3%B3n%20Roa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/Jesusalbt77">
-<img src="https://img.shields.io/badge/GitHub-Jesusalbt77-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-### ✦ Building today. Learning every day. ✦
-
-</div>
+<div
