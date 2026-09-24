@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=650&lines=Jes%C3%BAs+Alberto+Lebr%C3%B3n+Roa;Software+Engineering+Student;Backend+Developer;Building+with+Code+%26+Logic" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=650&lines=Jes%C3%BAs+Alberto+Lebr%C3%B3n+Roa;Software+Engineering+Student;Backend+%26+Frontend+Developer;Building+with+Code+%26+Logic" alt="Typing SVG" />
 
 <br/>
 
@@ -33,7 +33,7 @@
 
 Focused on:
 
-**Backend development** · **REST APIs** · **Relational databases** · **Software architecture** · **Building practical applications**
+**Backend & Frontend development** · **REST APIs** · **Relational databases** · **Software architecture** · **Building practical applications**
 
 <br/><br/>
 
@@ -65,7 +65,7 @@ Currently learning, building and improving one project at a time.
 
 ### Inventory Management System
 
-StockNova is a backend-focused inventory management project designed to manage products, categories and inventory movements through a structured API and relational database.
+StockNova is a backend and frontend inventory management project designed to manage products, categories and inventory movements through a structured API and relational database.
 
 <br/>
 
@@ -136,7 +136,7 @@ StockNova is a backend-focused inventory management project designed to manage p
 <div align="center">
 
 🔹 Studying Software Engineering  
-🔹 Improving my backend development skills  
+🔹 Improving my backend and frontend development skills  
 🔹 Working with APIs and relational databases  
 🔹 Developing StockNova  
 🔹 Learning new technologies through practical projects  
