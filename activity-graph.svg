@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="420"
+  viewBox="0 0 1200 420"
+>
+
+  <defs>
+
+    <linearGradient
+      id="background"
+      x1="0"
+      y1="0"
+      x2="0"
+      y2="1"
+    >
+      <stop offset="0%" stop-color="#05070A"/>
+      <stop offset="100%" stop-color="#020304"/>
+    </linearGradient>
+
+    <linearGradient
+      id="area"
+      x1="0"
+      y1="0"
+      x2="0"
+      y2="1"
+    >
+      <stop
+        offset="0%"
+        stop-color="#00F0FF"
+        stop-opacity="0.35"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#00F0FF"
+        stop-opacity="0"
+      />
+    </linearGradient>
+
+    <filter
+      id="glow"
+      x="-50%"
+      y="-50%"
+      width="200%"
+      height="200%"
+    >
+      <feGaussianBlur
+        stdDeviation="5"
+        result="blur"
+      />
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter
+      id="strongGlow"
+      x="-50%"
+      y="-50%"
+      width="200%"
+      height="200%"
+    >
+      <feGaussianBlur
+        stdDeviation="9"
+        result="blur"
+      />
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- BACKGROUND -->
+
+  <rect
+    width="100%"
+    height="100%"
+    rx="18"
+    fill="url(#background)"
+  />
+
+  <!-- CYBERPUNK BORDER -->
+
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="418"
+    rx="18"
+    fill="none"
+    stroke="#00F0FF"
+    stroke-width="2"
+    opacity="0.8"
+    filter="url(#glow)"
+  />
+
+  <!-- TITLE -->
+
+  <text
+    x="70"
+    y="42"
+    fill="#00F0FF"
+    font-family="monospace"
+    font-size="22"
+    font-weight="bold"
+    letter-spacing="2"
+  >
+    JESÚS ALBERTO LEBRÓN ROA
+  </text>
+
+  <text
+    x="70"
+    y="70"
+    fill="#6BEFFF"
+    font-family="monospace"
+    font-size="13"
+    letter-spacing="1"
+  >
+    &gt; DEVELOPMENT ACTIVITY // LAST 52 WEEKS
+  </text>
+
+  <!-- TOTAL -->
+
+  <text
+    x="1160"
+    y="46"
+    text-anchor="end"
+    fill="#FFFFFF"
+    font-family="monospace"
+    font-size="20"
+    font-weight="bold"
+  >
+    55
+  </text>
+
+  <text
+    x="1160"
+    y="68"
+    text-anchor="end"
+    fill="#00F0FF"
+    font-family="monospace"
+    font-size="11"
+    letter-spacing="1"
+  >
+    CONTRIBUTIONS
+  </text>
+
+  <!-- GRID -->
+
+  
+      <line
+        x1="70"
+        y1="100.00"
+        x2="1160"
+        y2="100.00"
+        stroke="#12313A"
+        stroke-width="1"
+        opacity="0.7"
+      />
+    
+      <line
+        x1="70"
+        y1="150.00"
+        x2="1160"
+        y2="150.00"
+        stroke="#12313A"
+        stroke-width="1"
+        opacity="0.7"
+      />
+    
+      <line
+        x1="70"
+        y1="200.00"
+        x2="1160"
+        y2="200.00"
+        stroke="#12313A"
+        stroke-width="1"
+        opacity="0.7"
+      />
+    
+      <line
+        x1="70"
+        y1="250.00"
+        x2="1160"
+        y2="250.00"
+        stroke="#12313A"
+        stroke-width="1"
+        opacity="0.7"
+      />
+    
+      <line
+        x1="70"
+        y1="300.00"
+        x2="1160"
+        y2="300.00"
+        stroke="#12313A"
+        stroke-width="1"
+        opacity="0.7"
+      />
+    
+      <line
+        x1="70"
+        y1="350.00"
+        x2="1160"
+        y2="350.00"
+        stroke="#12313A"
+        stroke-width="1"
+        opacity="0.7"
+      />
+    
+      <line
+        x1="70.00"
+        y1="100"
+        x2="70.00"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="160.83"
+        y1="100"
+        x2="160.83"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="251.67"
+        y1="100"
+        x2="251.67"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="342.50"
+        y1="100"
+        x2="342.50"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="433.33"
+        y1="100"
+        x2="433.33"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="524.17"
+        y1="100"
+        x2="524.17"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="615.00"
+        y1="100"
+        x2="615.00"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="705.83"
+        y1="100"
+        x2="705.83"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="796.67"
+        y1="100"
+        x2="796.67"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="887.50"
+        y1="100"
+        x2="887.50"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="978.33"
+        y1="100"
+        x2="978.33"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="1069.17"
+        y1="100"
+        x2="1069.17"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+      <line
+        x1="1160.00"
+        y1="100"
+        x2="1160.00"
+        y2="350"
+        stroke="#0B2229"
+        stroke-width="1"
+        opacity="0.6"
+      />
+    
+
+  <!-- AREA -->
+
+  <polygon
+    points="70,350 70.00,350.00 91.37,350.00 112.75,350.00 134.12,350.00 155.49,350.00 176.86,350.00 198.24,350.00 219.61,350.00 240.98,350.00 262.35,350.00 283.73,350.00 305.10,300.00 326.47,350.00 347.84,350.00 369.22,350.00 390.59,350.00 411.96,350.00 433.33,350.00 454.71,330.00 476.08,340.00 497.45,350.00 518.82,350.00 540.20,330.00 561.57,350.00 582.94,280.00 604.31,350.00 625.69,310.00 647.06,350.00 668.43,350.00 689.80,350.00 711.18,350.00 732.55,350.00 753.92,350.00 775.29,350.00 796.67,350.00 818.04,350.00 839.41,350.00 860.78,350.00 882.16,350.00 903.53,350.00 924.90,350.00 946.27,350.00 967.65,350.00 989.02,350.00 1010.39,350.00 1031.76,350.00 1053.14,350.00 1074.51,350.00 1095.88,350.00 1117.25,350.00 1138.63,260.00 1160.00,100.00 1160,350"
+    fill="url(#area)"
+  />
+
+  <!-- GLOW LINE -->
+
+  <polyline
+    points="70.00,350.00 91.37,350.00 112.75,350.00 134.12,350.00 155.49,350.00 176.86,350.00 198.24,350.00 219.61,350.00 240.98,350.00 262.35,350.00 283.73,350.00 305.10,300.00 326.47,350.00 347.84,350.00 369.22,350.00 390.59,350.00 411.96,350.00 433.33,350.00 454.71,330.00 476.08,340.00 497.45,350.00 518.82,350.00 540.20,330.00 561.57,350.00 582.94,280.00 604.31,350.00 625.69,310.00 647.06,350.00 668.43,350.00 689.80,350.00 711.18,350.00 732.55,350.00 753.92,350.00 775.29,350.00 796.67,350.00 818.04,350.00 839.41,350.00 860.78,350.00 882.16,350.00 903.53,350.00 924.90,350.00 946.27,350.00 967.65,350.00 989.02,350.00 1010.39,350.00 1031.76,350.00 1053.14,350.00 1074.51,350.00 1095.88,350.00 1117.25,350.00 1138.63,260.00 1160.00,100.00"
+    fill="none"
+    stroke="#00F0FF"
+    stroke-width="8"
+    opacity="0.18"
+    filter="url(#strongGlow)"
+  />
+
+  <!-- MAIN LINE -->
+
+  <polyline
+    points="70.00,350.00 91.37,350.00 112.75,350.00 134.12,350.00 155.49,350.00 176.86,350.00 198.24,350.00 219.61,350.00 240.98,350.00 262.35,350.00 283.73,350.00 305.10,300.00 326.47,350.00 347.84,350.00 369.22,350.00 390.59,350.00 411.96,350.00 433.33,350.00 454.71,330.00 476.08,340.00 497.45,350.00 518.82,350.00 540.20,330.00 561.57,350.00 582.94,280.00 604.31,350.00 625.69,310.00 647.06,350.00 668.43,350.00 689.80,350.00 711.18,350.00 732.55,350.00 753.92,350.00 775.29,350.00 796.67,350.00 818.04,350.00 839.41,350.00 860.78,350.00 882.16,350.00 903.53,350.00 924.90,350.00 946.27,350.00 967.65,350.00 989.02,350.00 1010.39,350.00 1031.76,350.00 1053.14,350.00 1074.51,350.00 1095.88,350.00 1117.25,350.00 1138.63,260.00 1160.00,100.00"
+    fill="none"
+    stroke="#00F0FF"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glow)"
+  />
+
+  <!-- DATA POINTS -->
+
+  
+      <circle
+        cx="70.00"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="91.37"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="112.75"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="134.12"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="155.49"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="176.86"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="198.24"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="219.61"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="240.98"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="262.35"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="283.73"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="305.10"
+        cy="300.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="326.47"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="347.84"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="369.22"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="390.59"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="411.96"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="433.33"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="454.71"
+        cy="330.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="476.08"
+        cy="340.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="497.45"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="518.82"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="540.20"
+        cy="330.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="561.57"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="582.94"
+        cy="280.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="604.31"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="625.69"
+        cy="310.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="647.06"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="668.43"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="689.80"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="711.18"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="732.55"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="753.92"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="775.29"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="796.67"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="818.04"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="839.41"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="860.78"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="882.16"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="903.53"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="924.90"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="946.27"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="967.65"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="989.02"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="1010.39"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="1031.76"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="1053.14"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="1074.51"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="1095.88"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="1117.25"
+        cy="350.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="1138.63"
+        cy="260.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+      <circle
+        cx="1160.00"
+        cy="100.00"
+        r="4"
+        fill="#00F0FF"
+        filter="url(#glow)"
+      />
+    
+
+  <!-- AXIS -->
+
+  <line
+    x1="70"
+    y1="350"
+    x2="1160"
+    y2="350"
+    stroke="#00F0FF"
+    stroke-width="1"
+    opacity="0.6"
+  />
+
+  <!-- FOOTER -->
+
+  <text
+    x="70"
+    y="395"
+    fill="#4A8F99"
+    font-family="monospace"
+    font-size="10"
+    letter-spacing="1"
+  >
+    SYSTEM STATUS: ACTIVE
+  </text>
+
+  <text
+    x="1160"
+    y="395"
+    text-anchor="end"
+    fill="#4A8F99"
+    font-family="monospace"
+    font-size="10"
+    letter-spacing="1"
+  >
+    JESUSALBT77 // GITHUB
+  </text>
+
+</svg>
